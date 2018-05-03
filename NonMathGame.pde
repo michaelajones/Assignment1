@@ -1,12 +1,14 @@
-color CurrentColor;
 int strokeW;
 int flag=0;
 
 void setup()
 {
-  size(640, 480);
+  size(600, 600);
   colorMode(HSB);
   background(255);
+  textSize(20);
+  fill(12);
+  text("Press C to reset", 450, 545, 140, 130);
   CurrentColor = color(0, 0, 0, 0);
  
 }
@@ -33,5 +35,4 @@ void mouseReleased(){
 void keyPressed() {
   if (key == 'c')  
     background(255);
-    if (key == 'p') background(CurrentColor);
 }
