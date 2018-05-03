@@ -10,5 +10,5 @@ void setup() {
   fill (255);
   text ("Math Game", 470, 545, 150, 130);
   fill (0);
-  text ("Non-Math Game", 431, 575, 200, 130);
+  text ("Non Math Game", 431, 575, 200, 130);
 }
